@@ -55,7 +55,7 @@ npx cypress open
 
 Isso cria a pasta `cypress/` com os arquivos de configuração.
 
-Agora, editamos o `cypress.config.ts` e adicionamos o suporte ao Cucumber:
+Agora, edite o `cypress.config.ts` e adicione o suporte ao Cucumber:
 
 ```ts
 import { defineConfig } from "cypress";
@@ -88,13 +88,13 @@ export default defineConfig({
 
 ## 🛠 **Passo 5: Criar a estrutura para os testes BDD**  
 
-Criamos a pasta onde vamos escrever nossos cenários:  
+Crie a pasta para escrever os cenários:  
 
 ```sh
 mkdir -p cypress/e2e/
 ```
 
-E dentro dela, criamos o primeiro arquivo de teste `cypress/e2e/teste.feature`:
+E dentro dela, crie o primeiro arquivo de teste `cypress/e2e/teste.feature`:
 
 ```gherkin
 Feature: Teste simples
@@ -105,7 +105,7 @@ Feature: Teste simples
 
 ```
 
-Depois, criamos a implementação do teste no arquivo `cypress/e2e/teste.steps.ts`:
+Depois, crie a implementação do teste no arquivo `cypress/e2e/teste.steps.ts`:
 
 ```ts
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
