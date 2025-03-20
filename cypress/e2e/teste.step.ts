@@ -5,5 +5,5 @@ Given("que o usuário acessa a página inicial", () => {
 });
 
 Then("a página carrega com sucesso", () => {
-  cy.contains("Kitchen Sink");
+  cy.contains("h1", "Kitchen Sink");
 });
