@@ -88,13 +88,7 @@ export default defineConfig({
 
 ## 🛠 **Passo 5: Criar a estrutura para os testes BDD**  
 
-Crie a pasta para escrever os cenários:  
-
-```sh
-mkdir -p cypress/e2e/
-```
-
-E dentro dela, crie o primeiro arquivo de teste `cypress/e2e/teste.feature`:
+Dentro de `cypress/e2e/`, crie o primeiro arquivo de teste `cypress/e2e/teste.feature`:
 
 ```gherkin
 Feature: Teste simples
